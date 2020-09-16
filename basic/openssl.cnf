@@ -73,8 +73,16 @@ authorityKeyIdentifier = keyid,issuer
 DNS.1 = $common_name
 DNS.2 = $client_alt_name
 DNS.3 = localhost
+DNS.4 = beer-garden
+DNS.5 = prometheus
+DNS.6 = grafana
+DNS.7 = rabbitmq
 
 [ server_alt_names ]
 DNS.1 = $common_name
 DNS.2 = $server_alt_name
 DNS.3 = localhost
+DNS.4 = beer-garden
+DNS.5 = prometheus
+DNS.6 = grafana
+DNS.7 = rabbitmq
